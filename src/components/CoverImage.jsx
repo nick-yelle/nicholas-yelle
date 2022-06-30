@@ -1,10 +1,13 @@
 import React from 'react'
-import ChurchCover from '../images/church-cover.jpg'
 
-function CoverImage() {
+
+function CoverImage({img}) {
   return (
-    <div className='cover-image'>
-        <img src={ChurchCover} alt="New England Cover" />
+    <div 
+      className='cover-image'
+      style={{position: 'relative',paddingTop:'50px'}}
+    >
+      <img style={{width:'100%',}} src={img} />
     </div>
   )
 }

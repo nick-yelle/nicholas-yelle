@@ -1,25 +1,44 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
 li {
     float: right;
     display: block;
     text-align: center;
-    padding: 14px 16px;
+    width: 100px;
+    padding: 14px 25px;
     text-decoration: none;
+    color: #141414;
+}
+
+li:hover {
+    background-color: #141414;
+    cursor: pointer;
+    color: white;
+}
+
+li:hover a {
+    color: white;
 }
 
 .nav-name {
     float: left;
 }
 
-li:hover {
-    background-color: #141414;
-    color: white;
+.nav-name:hover {
+    font-weight: bold;
+    background-color: white;
+    color: #141414;
     cursor: pointer
+}
+
+.sticky {
+    position: fixed;
+    top: 50px;
+    text-align: center;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
   /*
